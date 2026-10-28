@@ -2,6 +2,16 @@
 
 Dash dashboard for Power/Speed analysis and audited report editing.
 
+## Preview
+
+<p align="center">
+  <a href="docs/images/dashboard-preview.png">
+    <img src="docs/images/dashboard-preview.png" alt="Vessel Performance Monitor showing vessel filters, Power and Speed charts, and the editable report table" width="640">
+  </a>
+</p>
+
+Click the preview to view the full-size screenshot.
+
 ## Run
 
 Python 3.11/3.12, Windows PowerShell:
