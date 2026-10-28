@@ -1,0 +1,10 @@
+# Application
+dash>=3.2,<5
+dash-ag-grid>=32,<34
+plotly>=6,<7
+pandas>=2.2,<3
+gunicorn>=22,<24
+
+# Automated tests
+pytest>=8,<10
+playwright>=1.50,<2

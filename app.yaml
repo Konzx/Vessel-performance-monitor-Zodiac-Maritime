@@ -1,0 +1,12 @@
+# Databricks Apps stub for Dash's Flask WSGI server.
+# gunicorn_conf.py binds to 0.0.0.0 using the injected DATABRICKS_APP_PORT.
+command:
+  - gunicorn
+  - --config
+  - gunicorn_conf.py
+  - app:server
+env:
+  - name: APP_ENV
+    value: databricks
+  - name: DB_PATH
+    value: vessels.sqlite3
